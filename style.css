@@ -139,5 +139,15 @@ p {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--text-primary);
+    transition: opacity 0.3s;
+}
+
+.city-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
